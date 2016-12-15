@@ -23,7 +23,7 @@
       <plugin>
         <groupId>io.fabric8</groupId>
         <artifactId>docker-maven-plugin</artifactId>
-        <version>0.14.2</version>
+        <version>0.18.1</version>
         <configuration>
           <skip>true</skip>
         </configuration>
@@ -31,7 +31,7 @@
       <plugin>
         <groupId>io.fabric8</groupId>
         <artifactId>fabric8-maven-plugin</artifactId>
-        <version>2.2.102</version>
+        <version>3.2.8</version>
         <configuration>
           <skip>true</skip>
         </configuration>
