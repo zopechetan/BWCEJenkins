@@ -120,9 +120,12 @@
             <phase>package</phase>
             <configuration>
               <tasks>
-                <copy file="Dockerfile" tofile="${basedir}/target/Dockerfile"/>
+                <copy file="Dockerfile" tofile="/target/Dockerfile"/>
               </tasks>
             </configuration>
+            <goals>
+              <goal>run</goal>
+            </goals>
           </execution> 
         </executions>
       </plugin>
