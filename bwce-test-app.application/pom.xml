@@ -117,7 +117,7 @@
         <executions>
           <execution>
             <id>copy</id>
-            <phase>compile</phase>
+            <phase>package</phase>
             <configuration>
               <tasks>
                 <copy file="Dockerfile" tofile="${basedir}/target/Dockerfile"/>
