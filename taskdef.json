@@ -14,11 +14,19 @@
                 }
             ],
             "environment": [
-			    {
+                {
                     "name": "BW_LOGLEVEL",
                     "value": "DEBUG"
                 }
-            ]
+            ],
+            "logConfiguration": {
+                "logDriver": "awsbwlogs",
+                "options": {
+                    "awslogs-group": "bwce-app-log",
+                    "awslogs-region": "us-east-1",
+                    "awslogs-stream-prefix": "bwce"
+                }
+	    }
         }
     ]
 }
