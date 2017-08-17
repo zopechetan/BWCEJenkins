@@ -20,7 +20,7 @@
                 }
             ],
             "logConfiguration": {
-                "logDriver": "awsbwlogs",
+                "logDriver": "awslogs",
                 "options": {
                     "awslogs-group": "bwce-app-log",
                     "awslogs-region": "us-east-1",
