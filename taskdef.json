@@ -21,6 +21,10 @@
                 {
                     "name": "BW_LOGLEVEL",
                     "value": "DEBUG"
+                },
+		    {
+                    "name": "BW_APP_MONITORING_CONFIG",
+                    "value": "{"url": "http://54.169.231.218:8080/"}"
                 }
             ],
             "logConfiguration": {
