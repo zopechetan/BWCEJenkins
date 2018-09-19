@@ -11,8 +11,7 @@
                 {
                     "containerPort": 7777,
                     "hostPort": 7777
-                },
-		
+                }
             ],
             "environment": [
                 {
