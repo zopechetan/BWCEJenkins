@@ -9,6 +9,14 @@
             "essential": true,
             "portMappings": [
                 {
+                    "containerPort": 8080,
+                    "hostPort": 8080
+                },
+		{
+                    "containerPort": 8090,
+                    "hostPort": 8090
+                },
+		{
                     "containerPort": 7777,
                     "hostPort": 7777
                 }
