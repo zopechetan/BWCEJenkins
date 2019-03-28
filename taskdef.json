@@ -31,7 +31,7 @@
                 "logDriver": "awslogs",
                 "options": {
                     "awslogs-group": "bwce-app-log",
-                    "awslogs-region": "ap-southeast-1",
+                    "awslogs-region": "us-east-1",
                     "awslogs-stream-prefix": "bwce"
                 }
 	    }
